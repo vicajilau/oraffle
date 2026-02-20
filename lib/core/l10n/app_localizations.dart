@@ -5,7 +5,18 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/intl.dart' as intl;
 
+import 'app_localizations_ar.dart';
+import 'app_localizations_ca.dart';
+import 'app_localizations_de.dart';
+import 'app_localizations_el.dart';
 import 'app_localizations_en.dart';
+import 'app_localizations_es.dart';
+import 'app_localizations_eu.dart';
+import 'app_localizations_fr.dart';
+import 'app_localizations_gl.dart';
+import 'app_localizations_hi.dart';
+import 'app_localizations_it.dart';
+import 'app_localizations_ja.dart';
 
 // ignore_for_file: type=lint
 
@@ -92,381 +103,394 @@ abstract class AppLocalizations {
       ];
 
   /// A list of this localizations delegate's supported locales.
-  static const List<Locale> supportedLocales = <Locale>[Locale('en')];
+  static const List<Locale> supportedLocales = <Locale>[
+    Locale('ar'),
+    Locale('ca'),
+    Locale('de'),
+    Locale('el'),
+    Locale('en'),
+    Locale('es'),
+    Locale('eu'),
+    Locale('fr'),
+    Locale('gl'),
+    Locale('hi'),
+    Locale('it'),
+    Locale('ja'),
+  ];
 
-  /// No description provided for @okButton.
+  /// Generic OK button text
   ///
   /// In en, this message translates to:
   /// **'OK'**
   String get okButton;
 
-  /// No description provided for @cancelButton.
+  /// Cancel button text
   ///
   /// In en, this message translates to:
   /// **'Cancel'**
   String get cancelButton;
 
-  /// No description provided for @resetButton.
+  /// Reset button text
   ///
   /// In en, this message translates to:
   /// **'Reset'**
   String get resetButton;
 
-  /// No description provided for @reset.
+  /// Reset functionality text
   ///
   /// In en, this message translates to:
   /// **'Reset'**
   String get reset;
 
-  /// No description provided for @raffleTitle.
+  /// Title of the raffle functionality
   ///
   /// In en, this message translates to:
   /// **'Raffle'**
   String get raffleTitle;
 
-  /// No description provided for @raffleTooltip.
+  /// Tooltip for the raffle button
   ///
   /// In en, this message translates to:
   /// **'Start raffle'**
   String get raffleTooltip;
 
-  /// No description provided for @participantListTitle.
+  /// Title for the participant list section
   ///
   /// In en, this message translates to:
   /// **'Participant List'**
   String get participantListTitle;
 
-  /// No description provided for @participantListHint.
+  /// Hint text for the participant input field
   ///
   /// In en, this message translates to:
   /// **'Enter one name per line:'**
   String get participantListHint;
 
-  /// No description provided for @participantListPlaceholder.
+  /// Placeholder text for the participant input field
   ///
   /// In en, this message translates to:
   /// **'John Doe\nJane Smith\nBob Johnson\n...'**
   String get participantListPlaceholder;
 
-  /// No description provided for @clearList.
+  /// Button text to clear the participant list
   ///
   /// In en, this message translates to:
   /// **'Clear List'**
   String get clearList;
 
-  /// No description provided for @participants.
+  /// Label for the participants list
   ///
   /// In en, this message translates to:
   /// **'Participants'**
   String get participants;
 
-  /// No description provided for @noParticipants.
+  /// Message shown when the participant list is empty
   ///
   /// In en, this message translates to:
   /// **'No participants'**
   String get noParticipants;
 
-  /// No description provided for @addParticipantsHint.
+  /// Hint text when no participants are present
   ///
   /// In en, this message translates to:
   /// **'Add names in the text area'**
   String get addParticipantsHint;
 
-  /// No description provided for @activeParticipants.
+  /// Label for active participants
   ///
   /// In en, this message translates to:
   /// **'Active Participants'**
   String get activeParticipants;
 
-  /// No description provided for @alreadySelected.
+  /// Label for participants already selected as winners
   ///
   /// In en, this message translates to:
   /// **'Already Selected'**
   String get alreadySelected;
 
-  /// No description provided for @totalParticipants.
+  /// Total participants count
   ///
   /// In en, this message translates to:
   /// **'Total: {count}'**
-  String totalParticipants(Object count);
+  String totalParticipants(int count);
 
-  /// No description provided for @activeVsWinners.
+  /// Active vs winners count
   ///
   /// In en, this message translates to:
   /// **'Active: {active} | Winners: {winners}'**
-  String activeVsWinners(Object active, Object winners);
+  String activeVsWinners(int active, int winners);
 
-  /// No description provided for @startRaffle.
+  /// Button text to start the raffle
   ///
   /// In en, this message translates to:
   /// **'Start Raffle'**
   String get startRaffle;
 
-  /// No description provided for @raffling.
+  /// Text shown during the raffle animation
   ///
   /// In en, this message translates to:
   /// **'Raffling...'**
   String get raffling;
 
-  /// No description provided for @selectingWinner.
+  /// Text shown during winner selection
   ///
   /// In en, this message translates to:
   /// **'Selecting winner...'**
   String get selectingWinner;
 
-  /// No description provided for @allParticipantsSelected.
+  /// Message when all participants are already winners
   ///
   /// In en, this message translates to:
   /// **'All participants have already been selected'**
   String get allParticipantsSelected;
 
-  /// No description provided for @addParticipantsToStart.
+  /// Hint message to add participants
   ///
   /// In en, this message translates to:
   /// **'Add participants to start the raffle'**
   String get addParticipantsToStart;
 
-  /// No description provided for @participantsReadyCount.
+  /// Number of participants ready for raffle
   ///
   /// In en, this message translates to:
   /// **'{count} participant(s) ready for raffle'**
-  String participantsReadyCount(Object count);
+  String participantsReadyCount(int count);
 
-  /// No description provided for @resetWinners.
+  /// Button text to reset winners list
   ///
   /// In en, this message translates to:
   /// **'Reset Winners'**
   String get resetWinners;
 
-  /// No description provided for @resetWinnersConfirmTitle.
+  /// Confirmation title for resetting winners
   ///
   /// In en, this message translates to:
   /// **'Reset Winners'**
   String get resetWinnersConfirmTitle;
 
-  /// No description provided for @resetWinnersConfirmMessage.
+  /// Confirmation message for resetting winners
   ///
   /// In en, this message translates to:
   /// **'Are you sure you want to reset the winners list? All participants will be available for the raffle again.'**
   String get resetWinnersConfirmMessage;
 
-  /// No description provided for @resetRaffleTitle.
+  /// Title for resetting the entire raffle
   ///
   /// In en, this message translates to:
   /// **'Reset Raffle'**
   String get resetRaffleTitle;
 
-  /// No description provided for @resetRaffleConfirmMessage.
+  /// Confirmation message for resetting the entire raffle
   ///
   /// In en, this message translates to:
   /// **'Are you sure you want to reset the raffle? All participants and winners will be lost.'**
   String get resetRaffleConfirmMessage;
 
-  /// No description provided for @viewWinners.
+  /// Button to view current winners
   ///
   /// In en, this message translates to:
   /// **'View winners'**
   String get viewWinners;
 
-  /// No description provided for @congratulations.
+  /// Congratulations message for the winner
   ///
   /// In en, this message translates to:
   /// **'🎉 Congratulations! 🎉'**
   String get congratulations;
 
-  /// No description provided for @positionLabel.
+  /// Winner position label
   ///
   /// In en, this message translates to:
   /// **'Position: {position}°'**
-  String positionLabel(Object position);
+  String positionLabel(int position);
 
-  /// No description provided for @remainingParticipants.
+  /// Remaining participants count
   ///
   /// In en, this message translates to:
   /// **'Remaining participants: {count}'**
-  String remainingParticipants(Object count);
+  String remainingParticipants(int count);
 
-  /// No description provided for @continueRaffle.
+  /// Button to continue the raffle
   ///
   /// In en, this message translates to:
   /// **'Continue Raffle'**
   String get continueRaffle;
 
-  /// No description provided for @finishRaffle.
+  /// Button to finish the raffle
   ///
   /// In en, this message translates to:
   /// **'Finish Raffle'**
   String get finishRaffle;
 
-  /// No description provided for @winnersTitle.
+  /// Title for the winners screen
   ///
   /// In en, this message translates to:
   /// **'Raffle Winners'**
   String get winnersTitle;
 
-  /// No description provided for @shareResults.
+  /// Button to share raffle results
   ///
   /// In en, this message translates to:
   /// **'Share results'**
   String get shareResults;
 
-  /// No description provided for @noWinnersYet.
+  /// Message when no winners have been selected
   ///
   /// In en, this message translates to:
   /// **'No winners yet'**
   String get noWinnersYet;
 
-  /// No description provided for @performRaffleToSeeWinners.
+  /// Prompt to perform a raffle
   ///
   /// In en, this message translates to:
   /// **'Perform a raffle to see the winners here'**
   String get performRaffleToSeeWinners;
 
-  /// No description provided for @goToRaffle.
+  /// Navigation link to the raffle screen
   ///
   /// In en, this message translates to:
   /// **'Go to Raffle'**
   String get goToRaffle;
 
-  /// No description provided for @raffleCompleted.
+  /// Message when the raffle is completed
   ///
   /// In en, this message translates to:
   /// **'Raffle Completed'**
   String get raffleCompleted;
 
-  /// No description provided for @winnersSelectedCount.
+  /// Number of winners selected
   ///
   /// In en, this message translates to:
   /// **'{count} winner(s) selected'**
-  String winnersSelectedCount(Object count);
+  String winnersSelectedCount(int count);
 
-  /// No description provided for @newRaffle.
+  /// Button to start a new raffle
   ///
   /// In en, this message translates to:
   /// **'New Raffle'**
   String get newRaffle;
 
-  /// No description provided for @shareResultsTitle.
+  /// Title for the results sharing dialog
   ///
   /// In en, this message translates to:
   /// **'Share Results'**
   String get shareResultsTitle;
 
-  /// No description provided for @raffleResultsLabel.
+  /// Label for the results text
   ///
   /// In en, this message translates to:
   /// **'Raffle results:'**
   String get raffleResultsLabel;
 
-  /// No description provided for @close.
+  /// Generic close button text
   ///
   /// In en, this message translates to:
   /// **'Close'**
   String get close;
 
-  /// No description provided for @share.
+  /// Button text to copy results
   ///
   /// In en, this message translates to:
   /// **'Copy'**
   String get share;
 
-  /// No description provided for @shareNotImplemented.
+  /// Message when share is not available
   ///
   /// In en, this message translates to:
   /// **'Share functionality not implemented'**
   String get shareNotImplemented;
 
-  /// No description provided for @firstPlace.
+  /// Abbreviation for 1st place
   ///
   /// In en, this message translates to:
   /// **'1st'**
   String get firstPlace;
 
-  /// No description provided for @secondPlace.
+  /// Abbreviation for 2nd place
   ///
   /// In en, this message translates to:
   /// **'2nd'**
   String get secondPlace;
 
-  /// No description provided for @thirdPlace.
+  /// Abbreviation for 3rd place
   ///
   /// In en, this message translates to:
   /// **'3rd'**
   String get thirdPlace;
 
-  /// No description provided for @nthPlace.
+  /// Ordinal position label
   ///
   /// In en, this message translates to:
   /// **'{position}°'**
-  String nthPlace(Object position);
+  String nthPlace(int position);
 
-  /// No description provided for @placeLabel.
+  /// Place label with ordinal
   ///
   /// In en, this message translates to:
   /// **'{position} place'**
-  String placeLabel(Object position);
+  String placeLabel(String position);
 
-  /// No description provided for @raffleResultsHeader.
+  /// Header for shared raffle results
   ///
   /// In en, this message translates to:
   /// **'🏆 RAFFLE RESULTS 🏆'**
   String get raffleResultsHeader;
 
-  /// No description provided for @totalWinners.
+  /// Total winners count in shared results
   ///
   /// In en, this message translates to:
   /// **'Total winners: {count}'**
-  String totalWinners(Object count);
+  String totalWinners(int count);
 
-  /// No description provided for @noWinnersToShare.
+  /// Message when there are no winners to share
   ///
   /// In en, this message translates to:
   /// **'No winners.'**
   String get noWinnersToShare;
 
-  /// No description provided for @shareSuccess.
+  /// Success message when results are copied
   ///
   /// In en, this message translates to:
   /// **'Results copied successfully'**
   String get shareSuccess;
 
-  /// No description provided for @selectLogo.
+  /// Button to select a custom logo
   ///
   /// In en, this message translates to:
   /// **'Select Logo'**
   String get selectLogo;
 
-  /// No description provided for @logoUrl.
+  /// Label for custom logo URL input
   ///
   /// In en, this message translates to:
   /// **'Logo URL'**
   String get logoUrl;
 
-  /// No description provided for @logoUrlHint.
+  /// Hint for custom logo URL input
   ///
   /// In en, this message translates to:
   /// **'Enter the URL of an image to use as a custom logo for the raffle'**
   String get logoUrlHint;
 
-  /// No description provided for @invalidLogoUrl.
+  /// Error message for invalid logo URL
   ///
   /// In en, this message translates to:
   /// **'Invalid image URL. Must be a valid URL ending in .jpg, .png, .gif, etc.'**
   String get invalidLogoUrl;
 
-  /// No description provided for @logoPreview.
+  /// Label for logo preview section
   ///
   /// In en, this message translates to:
   /// **'Preview'**
   String get logoPreview;
 
-  /// No description provided for @removeLogo.
+  /// Button to remove custom logo
   ///
   /// In en, this message translates to:
   /// **'Remove Logo'**
   String get removeLogo;
 
-  /// No description provided for @logoTooLargeWarning.
+  /// Warning when logo exceeds size limits
   ///
   /// In en, this message translates to:
   /// **'Image is too large to be saved. It will only be used during this session.'**
@@ -483,8 +507,20 @@ class _AppLocalizationsDelegate
   }
 
   @override
-  bool isSupported(Locale locale) =>
-      <String>['en'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => <String>[
+    'ar',
+    'ca',
+    'de',
+    'el',
+    'en',
+    'es',
+    'eu',
+    'fr',
+    'gl',
+    'hi',
+    'it',
+    'ja',
+  ].contains(locale.languageCode);
 
   @override
   bool shouldReload(_AppLocalizationsDelegate old) => false;
@@ -493,8 +529,30 @@ class _AppLocalizationsDelegate
 AppLocalizations lookupAppLocalizations(Locale locale) {
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
+    case 'ar':
+      return AppLocalizationsAr();
+    case 'ca':
+      return AppLocalizationsCa();
+    case 'de':
+      return AppLocalizationsDe();
+    case 'el':
+      return AppLocalizationsEl();
     case 'en':
       return AppLocalizationsEn();
+    case 'es':
+      return AppLocalizationsEs();
+    case 'eu':
+      return AppLocalizationsEu();
+    case 'fr':
+      return AppLocalizationsFr();
+    case 'gl':
+      return AppLocalizationsGl();
+    case 'hi':
+      return AppLocalizationsHi();
+    case 'it':
+      return AppLocalizationsIt();
+    case 'ja':
+      return AppLocalizationsJa();
   }
 
   throw FlutterError(

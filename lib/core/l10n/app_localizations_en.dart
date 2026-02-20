@@ -55,12 +55,12 @@ class AppLocalizationsEn extends AppLocalizations {
   String get alreadySelected => 'Already Selected';
 
   @override
-  String totalParticipants(Object count) {
+  String totalParticipants(int count) {
     return 'Total: $count';
   }
 
   @override
-  String activeVsWinners(Object active, Object winners) {
+  String activeVsWinners(int active, int winners) {
     return 'Active: $active | Winners: $winners';
   }
 
@@ -81,7 +81,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get addParticipantsToStart => 'Add participants to start the raffle';
 
   @override
-  String participantsReadyCount(Object count) {
+  String participantsReadyCount(int count) {
     return '$count participant(s) ready for raffle';
   }
 
@@ -109,12 +109,12 @@ class AppLocalizationsEn extends AppLocalizations {
   String get congratulations => '🎉 Congratulations! 🎉';
 
   @override
-  String positionLabel(Object position) {
+  String positionLabel(int position) {
     return 'Position: $position°';
   }
 
   @override
-  String remainingParticipants(Object count) {
+  String remainingParticipants(int count) {
     return 'Remaining participants: $count';
   }
 
@@ -144,7 +144,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get raffleCompleted => 'Raffle Completed';
 
   @override
-  String winnersSelectedCount(Object count) {
+  String winnersSelectedCount(int count) {
     return '$count winner(s) selected';
   }
 
@@ -176,12 +176,12 @@ class AppLocalizationsEn extends AppLocalizations {
   String get thirdPlace => '3rd';
 
   @override
-  String nthPlace(Object position) {
+  String nthPlace(int position) {
     return '$position°';
   }
 
   @override
-  String placeLabel(Object position) {
+  String placeLabel(String position) {
     return '$position place';
   }
 
@@ -189,7 +189,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get raffleResultsHeader => '🏆 RAFFLE RESULTS 🏆';
 
   @override
-  String totalWinners(Object count) {
+  String totalWinners(int count) {
     return 'Total winners: $count';
   }
 

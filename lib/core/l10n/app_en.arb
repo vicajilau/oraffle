@@ -1,66 +1,313 @@
 {
   "@@locale": "en",
   "okButton": "OK",
+  "@okButton": {
+    "description": "Generic OK button text"
+  },
   "cancelButton": "Cancel",
+  "@cancelButton": {
+    "description": "Cancel button text"
+  },
   "resetButton": "Reset",
+  "@resetButton": {
+    "description": "Reset button text"
+  },
   "reset": "Reset",
+  "@reset": {
+    "description": "Reset functionality text"
+  },
   "raffleTitle": "Raffle",
+  "@raffleTitle": {
+    "description": "Title of the raffle functionality"
+  },
   "raffleTooltip": "Start raffle",
+  "@raffleTooltip": {
+    "description": "Tooltip for the raffle button"
+  },
   "participantListTitle": "Participant List",
+  "@participantListTitle": {
+    "description": "Title for the participant list section"
+  },
   "participantListHint": "Enter one name per line:",
+  "@participantListHint": {
+    "description": "Hint text for the participant input field"
+  },
   "participantListPlaceholder": "John Doe\nJane Smith\nBob Johnson\n...",
+  "@participantListPlaceholder": {
+    "description": "Placeholder text for the participant input field"
+  },
   "clearList": "Clear List",
+  "@clearList": {
+    "description": "Button text to clear the participant list"
+  },
   "participants": "Participants",
+  "@participants": {
+    "description": "Label for the participants list"
+  },
   "noParticipants": "No participants",
+  "@noParticipants": {
+    "description": "Message shown when the participant list is empty"
+  },
   "addParticipantsHint": "Add names in the text area",
+  "@addParticipantsHint": {
+    "description": "Hint text when no participants are present"
+  },
   "activeParticipants": "Active Participants",
+  "@activeParticipants": {
+    "description": "Label for active participants"
+  },
   "alreadySelected": "Already Selected",
+  "@alreadySelected": {
+    "description": "Label for participants already selected as winners"
+  },
   "totalParticipants": "Total: {count}",
+  "@totalParticipants": {
+    "description": "Total participants count",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "10"
+      }
+    }
+  },
   "activeVsWinners": "Active: {active} | Winners: {winners}",
+  "@activeVsWinners": {
+    "description": "Active vs winners count",
+    "placeholders": {
+      "active": {
+        "type": "int",
+        "example": "5"
+      },
+      "winners": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
   "startRaffle": "Start Raffle",
+  "@startRaffle": {
+    "description": "Button text to start the raffle"
+  },
   "raffling": "Raffling...",
+  "@raffling": {
+    "description": "Text shown during the raffle animation"
+  },
   "selectingWinner": "Selecting winner...",
+  "@selectingWinner": {
+    "description": "Text shown during winner selection"
+  },
   "allParticipantsSelected": "All participants have already been selected",
+  "@allParticipantsSelected": {
+    "description": "Message when all participants are already winners"
+  },
   "addParticipantsToStart": "Add participants to start the raffle",
+  "@addParticipantsToStart": {
+    "description": "Hint message to add participants"
+  },
   "participantsReadyCount": "{count} participant(s) ready for raffle",
+  "@participantsReadyCount": {
+    "description": "Number of participants ready for raffle",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
   "resetWinners": "Reset Winners",
+  "@resetWinners": {
+    "description": "Button text to reset winners list"
+  },
   "resetWinnersConfirmTitle": "Reset Winners",
+  "@resetWinnersConfirmTitle": {
+    "description": "Confirmation title for resetting winners"
+  },
   "resetWinnersConfirmMessage": "Are you sure you want to reset the winners list? All participants will be available for the raffle again.",
+  "@resetWinnersConfirmMessage": {
+    "description": "Confirmation message for resetting winners"
+  },
   "resetRaffleTitle": "Reset Raffle",
+  "@resetRaffleTitle": {
+    "description": "Title for resetting the entire raffle"
+  },
   "resetRaffleConfirmMessage": "Are you sure you want to reset the raffle? All participants and winners will be lost.",
+  "@resetRaffleConfirmMessage": {
+    "description": "Confirmation message for resetting the entire raffle"
+  },
   "viewWinners": "View winners",
+  "@viewWinners": {
+    "description": "Button to view current winners"
+  },
   "congratulations": "🎉 Congratulations! 🎉",
+  "@congratulations": {
+    "description": "Congratulations message for the winner"
+  },
   "positionLabel": "Position: {position}°",
+  "@positionLabel": {
+    "description": "Winner position label",
+    "placeholders": {
+      "position": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
   "remainingParticipants": "Remaining participants: {count}",
+  "@remainingParticipants": {
+    "description": "Remaining participants count",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
   "continueRaffle": "Continue Raffle",
+  "@continueRaffle": {
+    "description": "Button to continue the raffle"
+  },
   "finishRaffle": "Finish Raffle",
+  "@finishRaffle": {
+    "description": "Button to finish the raffle"
+  },
   "winnersTitle": "Raffle Winners",
+  "@winnersTitle": {
+    "description": "Title for the winners screen"
+  },
   "shareResults": "Share results",
+  "@shareResults": {
+    "description": "Button to share raffle results"
+  },
   "noWinnersYet": "No winners yet",
+  "@noWinnersYet": {
+    "description": "Message when no winners have been selected"
+  },
   "performRaffleToSeeWinners": "Perform a raffle to see the winners here",
+  "@performRaffleToSeeWinners": {
+    "description": "Prompt to perform a raffle"
+  },
   "goToRaffle": "Go to Raffle",
+  "@goToRaffle": {
+    "description": "Navigation link to the raffle screen"
+  },
   "raffleCompleted": "Raffle Completed",
+  "@raffleCompleted": {
+    "description": "Message when the raffle is completed"
+  },
   "winnersSelectedCount": "{count} winner(s) selected",
+  "@winnersSelectedCount": {
+    "description": "Number of winners selected",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
   "newRaffle": "New Raffle",
+  "@newRaffle": {
+    "description": "Button to start a new raffle"
+  },
   "shareResultsTitle": "Share Results",
+  "@shareResultsTitle": {
+    "description": "Title for the results sharing dialog"
+  },
   "raffleResultsLabel": "Raffle results:",
+  "@raffleResultsLabel": {
+    "description": "Label for the results text"
+  },
   "close": "Close",
+  "@close": {
+    "description": "Generic close button text"
+  },
   "share": "Copy",
+  "@share": {
+    "description": "Button text to copy results"
+  },
   "shareNotImplemented": "Share functionality not implemented",
+  "@shareNotImplemented": {
+    "description": "Message when share is not available"
+  },
   "firstPlace": "1st",
+  "@firstPlace": {
+    "description": "Abbreviation for 1st place"
+  },
   "secondPlace": "2nd",
+  "@secondPlace": {
+    "description": "Abbreviation for 2nd place"
+  },
   "thirdPlace": "3rd",
+  "@thirdPlace": {
+    "description": "Abbreviation for 3rd place"
+  },
   "nthPlace": "{position}°",
+  "@nthPlace": {
+    "description": "Ordinal position label",
+    "placeholders": {
+      "position": {
+        "type": "int",
+        "example": "4"
+      }
+    }
+  },
   "placeLabel": "{position} place",
+  "@placeLabel": {
+    "description": "Place label with ordinal",
+    "placeholders": {
+      "position": {
+        "type": "String",
+        "example": "1st"
+      }
+    }
+  },
   "raffleResultsHeader": "🏆 RAFFLE RESULTS 🏆",
+  "@raffleResultsHeader": {
+    "description": "Header for shared raffle results"
+  },
   "totalWinners": "Total winners: {count}",
+  "@totalWinners": {
+    "description": "Total winners count in shared results",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
   "noWinnersToShare": "No winners.",
+  "@noWinnersToShare": {
+    "description": "Message when there are no winners to share"
+  },
   "shareSuccess": "Results copied successfully",
+  "@shareSuccess": {
+    "description": "Success message when results are copied"
+  },
   "selectLogo": "Select Logo",
+  "@selectLogo": {
+    "description": "Button to select a custom logo"
+  },
   "logoUrl": "Logo URL",
+  "@logoUrl": {
+    "description": "Label for custom logo URL input"
+  },
   "logoUrlHint": "Enter the URL of an image to use as a custom logo for the raffle",
+  "@logoUrlHint": {
+    "description": "Hint for custom logo URL input"
+  },
   "invalidLogoUrl": "Invalid image URL. Must be a valid URL ending in .jpg, .png, .gif, etc.",
+  "@invalidLogoUrl": {
+    "description": "Error message for invalid logo URL"
+  },
   "logoPreview": "Preview",
+  "@logoPreview": {
+    "description": "Label for logo preview section"
+  },
   "removeLogo": "Remove Logo",
-  "logoTooLargeWarning": "Image is too large to be saved. It will only be used during this session."
+  "@removeLogo": {
+    "description": "Button to remove custom logo"
+  },
+  "logoTooLargeWarning": "Image is too large to be saved. It will only be used during this session.",
+  "@logoTooLargeWarning": {
+    "description": "Warning when logo exceeds size limits"
+  }
 }

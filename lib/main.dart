@@ -30,7 +30,39 @@ class MyApp extends StatelessWidget {
           GlobalWidgetsLocalizations.delegate,
           GlobalCupertinoLocalizations.delegate,
         ],
-        supportedLocales: const [Locale('en')],
+        supportedLocales: AppLocalizations.supportedLocales,
+        localeResolutionCallback: (locale, supportedLocales) {
+          if (locale == null) {
+            return supportedLocales.first;
+          }
+
+          // Check if the current device locale is supported
+          for (final supportedLocale in supportedLocales) {
+            if (supportedLocale.languageCode == locale.languageCode &&
+                supportedLocale.countryCode == locale.countryCode) {
+              return supportedLocale;
+            }
+          }
+
+          // If not supported, check if the language code is supported
+          for (final supportedLocale in supportedLocales) {
+            if (supportedLocale.languageCode == locale.languageCode) {
+              return supportedLocale;
+            }
+          }
+
+          // If the locale is not supported, check if we have a fallback for this language
+          // ignoring country code
+          try {
+            return supportedLocales.firstWhere(
+              (l) => l.languageCode == locale.languageCode,
+              orElse: () => const Locale('en'),
+            );
+          } catch (e) {
+            return const Locale('en');
+          }
+        },
+
         debugShowCheckedModeBanner: false,
       ),
     );
