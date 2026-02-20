@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:oraffle/domain/models/raffle/raffle_logo.dart';
 
@@ -8,6 +9,8 @@ class RaffleStorageService {
   static const String _raffleLogo = 'raffle_logo';
   static const String _raffleLogoType = 'raffle_logo_type';
   static const String _raffleLogoFilename = 'raffle_logo_filename';
+  static const String _primaryColor = 'primary_color';
+  static const String _themeMode = 'theme_mode';
   // Maximum size for base64 encoded image (approximately 2MB in base64)
   static const int _maxBase64Size = 2 * 1024 * 1024; // 2MB in bytes
 
@@ -83,8 +86,34 @@ class RaffleStorageService {
   }
 
   /// Checks if a raffle logo is stored
-  Future<bool> hasLogo() async {
+  /// Saves the primary theme color
+  Future<void> savePrimaryColor(Color color) async {
     final prefs = await SharedPreferences.getInstance();
-    return prefs.containsKey(_raffleLogo);
+    await prefs.setInt(_primaryColor, color.toARGB32());
+  }
+
+  /// Retrieves the primary theme color
+  Future<Color?> getPrimaryColor() async {
+    final prefs = await SharedPreferences.getInstance();
+    final colorValue = prefs.getInt(_primaryColor);
+    if (colorValue == null) return null;
+    return Color(colorValue);
+  }
+
+  /// Saves the theme mode
+  Future<void> saveThemeMode(ThemeMode mode) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setString(_themeMode, mode.name);
+  }
+
+  /// Retrieves the theme mode
+  Future<ThemeMode?> getThemeMode() async {
+    final prefs = await SharedPreferences.getInstance();
+    final modeName = prefs.getString(_themeMode);
+    if (modeName == null) return null;
+    return ThemeMode.values.firstWhere(
+      (m) => m.name == modeName,
+      orElse: () => ThemeMode.system,
+    );
   }
 }

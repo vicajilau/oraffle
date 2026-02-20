@@ -6,8 +6,8 @@ import 'package:oraffle/presentation/blocs/raffle_bloc/raffle_bloc.dart';
 import 'package:oraffle/presentation/blocs/raffle_bloc/raffle_event.dart';
 import 'package:oraffle/presentation/blocs/raffle_bloc/raffle_state.dart';
 import 'package:oraffle/domain/models/raffle/raffle_session.dart';
-import 'package:oraffle/presentation/screens/raffle/widgets/raffle_animation_widget.dart';
-import 'package:oraffle/presentation/screens/raffle/widgets/clear_winners_dialog.dart';
+import 'package:oraffle/presentation/screens/widgets/raffle_animation_widget.dart';
+import 'package:oraffle/presentation/screens/widgets/clear_winners_dialog.dart';
 
 class RaffleControlsWidget extends StatelessWidget {
   const RaffleControlsWidget({super.key});
@@ -62,7 +62,7 @@ class RaffleControlsWidget extends StatelessWidget {
                 ),
                 style: ElevatedButton.styleFrom(
                   backgroundColor: canStartRaffle
-                      ? AppTheme.primaryColor
+                      ? Theme.of(context).colorScheme.primary
                       : null,
                   foregroundColor: canStartRaffle ? Colors.white : null,
                   shape: RoundedRectangleBorder(

@@ -495,6 +495,72 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Image is too large to be saved. It will only be used during this session.'**
   String get logoTooLargeWarning;
+
+  /// Text shown when no company logo is set
+  ///
+  /// In en, this message translates to:
+  /// **'Add company logo'**
+  String get addCompanyLogo;
+
+  /// The title of the application
+  ///
+  /// In en, this message translates to:
+  /// **'ORaffle'**
+  String get appTitle;
+
+  /// Subtitle shown on the home screen
+  ///
+  /// In en, this message translates to:
+  /// **'Fair and transparent raffles for your company'**
+  String get homeSubtitle;
+
+  /// Title for the settings dialog
+  ///
+  /// In en, this message translates to:
+  /// **'Settings'**
+  String get settingsTitle;
+
+  /// Label for theme color selection
+  ///
+  /// In en, this message translates to:
+  /// **'Theme Color'**
+  String get themeColor;
+
+  /// Text for the save button
+  ///
+  /// In en, this message translates to:
+  /// **'Save'**
+  String get saveButton;
+
+  /// Label for theme mode selection
+  ///
+  /// In en, this message translates to:
+  /// **'Theme Mode'**
+  String get themeModeLabel;
+
+  /// System theme option
+  ///
+  /// In en, this message translates to:
+  /// **'System'**
+  String get systemTheme;
+
+  /// Light theme option
+  ///
+  /// In en, this message translates to:
+  /// **'Light'**
+  String get lightTheme;
+
+  /// Dark theme option
+  ///
+  /// In en, this message translates to:
+  /// **'Dark'**
+  String get darkTheme;
+
+  /// Error message for invalid hexadecimal color input
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid hex color'**
+  String get invalidHexColor;
 }
 
 class _AppLocalizationsDelegate

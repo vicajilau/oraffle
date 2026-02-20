@@ -296,5 +296,53 @@
   "logoTooLargeWarning": "Irudia handiegia da gorde ahal izateko. Saio honetan bakarrik erabiliko da.",
   "@logoTooLargeWarning": {
     "description": "Abisu mezua logoa handiegia denean iraunkorki gorde ahal izateko"
+  },
+  "resetButton": "Berrezarri",
+  "@resetButton": {
+    "description": "Berrezarri botoiaren testua"
+  },
+  "addCompanyLogo": "Gehitu enpresaren logotipoa",
+  "@addCompanyLogo": {
+    "description": "Enpresaren logotipoa ezarrita ez dagoenean erakusten den testua"
+  },
+  "appTitle": "ORaffle",
+  "@appTitle": {
+    "description": "Aplikazioaren izenburua"
+  },
+  "homeSubtitle": "Zozketa bidezkoak eta Gardenak zure enpresarentzat",
+  "@homeSubtitle": {
+    "description": "Hasierako pantailan erakusten den azpititulua"
+  },
+  "settingsTitle": "Ezarpenak",
+  "@settingsTitle": {
+    "description": "Ezarpenen elkarrizketa-koadroaren izenburua"
+  },
+  "themeColor": "Gaiaren kolorea",
+  "@themeColor": {
+    "description": "Gaiaren kolorea hautatzeko etiketa"
+  },
+  "saveButton": "Gorde",
+  "@saveButton": {
+    "description": "Gorde botoiaren testua"
+  },
+  "themeModeLabel": "Gai modua",
+  "@themeModeLabel": {
+    "description": "Gai modua hautatzeko etiketa"
+  },
+  "systemTheme": "Sistema",
+  "@systemTheme": {
+    "description": "Sistemaren gai aukera"
+  },
+  "lightTheme": "Argia",
+  "@lightTheme": {
+    "description": "Gai argi aukera"
+  },
+  "darkTheme": "Iluna",
+  "@darkTheme": {
+    "description": "Gai ilun aukera"
+  },
+  "invalidHexColor": "Hex kolore baliogabea",
+  "@invalidHexColor": {
+    "description": "Hex kolore baliogabea sartzean agertzen den errore mezua"
   }
 }

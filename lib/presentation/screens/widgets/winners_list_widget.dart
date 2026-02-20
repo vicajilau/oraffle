@@ -3,9 +3,9 @@ import 'package:go_router/go_router.dart';
 import 'package:oraffle/core/theme/app_theme.dart';
 import 'package:oraffle/core/l10n/app_localizations.dart';
 import 'package:oraffle/domain/models/raffle/raffle_winner.dart';
-import 'package:oraffle/presentation/screens/raffle/widgets/clear_winners_dialog.dart';
-import 'package:oraffle/presentation/screens/raffle/widgets/reset_raffle_dialog.dart';
-import 'package:oraffle/presentation/screens/raffle/widgets/winner_card_widget.dart';
+import 'package:oraffle/presentation/screens/widgets/clear_winners_dialog.dart';
+import 'package:oraffle/presentation/screens/widgets/reset_raffle_dialog.dart';
+import 'package:oraffle/presentation/screens/widgets/winner_card_widget.dart';
 import 'package:oraffle/routes/app_router.dart';
 
 class WinnersListWidget extends StatelessWidget {
@@ -119,7 +119,7 @@ class WinnersListWidget extends StatelessWidget {
                     style: const TextStyle(fontWeight: FontWeight.w600),
                   ),
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: AppTheme.primaryColor,
+                    backgroundColor: Theme.of(context).colorScheme.primary,
                     foregroundColor: Colors.white,
                     elevation: 0,
                     shape: RoundedRectangleBorder(

@@ -302,5 +302,53 @@
   "logoTooLargeWarning": "L'immagine è troppo grande per essere salvata. Verrà utilizzata solo durante questa sessione.",
   "@logoTooLargeWarning": {
     "description": "Messaggio di avviso quando il logo è troppo grande per l'archiviazione persistente"
+  },
+  "resetButton": "Ripristina",
+  "@resetButton": {
+    "description": "Testo del pulsante di ripristino"
+  },
+  "addCompanyLogo": "Aggiungi logo aziendale",
+  "@addCompanyLogo": {
+    "description": "Testo mostrato quando non è impostato alcun logo aziendale"
+  },
+  "appTitle": "ORaffle",
+  "@appTitle": {
+    "description": "Il titolo dell'applicazione"
+  },
+  "homeSubtitle": "Raffle eque e trasparenti per la tua azienda",
+  "@homeSubtitle": {
+    "description": "Sottotitolo mostrato nella schermata principale"
+  },
+  "settingsTitle": "Impostazioni",
+  "@settingsTitle": {
+    "description": "Titolo per la finestra di dialogo delle impostazioni"
+  },
+  "themeColor": "Colore del tema",
+  "@themeColor": {
+    "description": "Etichetta per la selezione del colore del tema"
+  },
+  "saveButton": "Salva",
+  "@saveButton": {
+    "description": "Testo per il pulsante di salvataggio"
+  },
+  "themeModeLabel": "Modalità tema",
+  "@themeModeLabel": {
+    "description": "Etiqueta per la selezione della modalità tema"
+  },
+  "systemTheme": "Sistema",
+  "@systemTheme": {
+    "description": "Opzione tema di sistema"
+  },
+  "lightTheme": "Chiaro",
+  "@lightTheme": {
+    "description": "Opzione tema chiaro"
+  },
+  "darkTheme": "Scuro",
+  "@darkTheme": {
+    "description": "Opción tema scuro"
+  },
+  "invalidHexColor": "Colore esadecimale non valido",
+  "@invalidHexColor": {
+    "description": "Messaggio di errore per l'immissione di un colore esadecimale non valido"
   }
 }

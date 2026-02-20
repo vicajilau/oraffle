@@ -15,7 +15,7 @@ class AppLocalizationsEu extends AppLocalizations {
   String get cancelButton => 'Utzi';
 
   @override
-  String get resetButton => 'Reset';
+  String get resetButton => 'Berrezarri';
 
   @override
   String get reset => 'Berrezarri';
@@ -222,4 +222,38 @@ class AppLocalizationsEu extends AppLocalizations {
   @override
   String get logoTooLargeWarning =>
       'Irudia handiegia da gorde ahal izateko. Saio honetan bakarrik erabiliko da.';
+
+  @override
+  String get addCompanyLogo => 'Gehitu enpresaren logotipoa';
+
+  @override
+  String get appTitle => 'ORaffle';
+
+  @override
+  String get homeSubtitle =>
+      'Zozketa bidezkoak eta Gardenak zure enpresarentzat';
+
+  @override
+  String get settingsTitle => 'Ezarpenak';
+
+  @override
+  String get themeColor => 'Gaiaren kolorea';
+
+  @override
+  String get saveButton => 'Gorde';
+
+  @override
+  String get themeModeLabel => 'Gai modua';
+
+  @override
+  String get systemTheme => 'Sistema';
+
+  @override
+  String get lightTheme => 'Argia';
+
+  @override
+  String get darkTheme => 'Iluna';
+
+  @override
+  String get invalidHexColor => 'Hex kolore baliogabea';
 }

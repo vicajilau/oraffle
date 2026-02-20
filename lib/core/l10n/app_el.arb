@@ -61,5 +61,53 @@
   "invalidLogoUrl": "Μη έγκυρο URL εικόνας. Πρέπει να είναι έγκυρο URL που τελειώνει σε .jpg, .png, .gif, κλπ.",
   "logoPreview": "Προεπισκόπηση",
   "removeLogo": "Αφαίρεση Λογότυπου",
-  "logoTooLargeWarning": "Η εικόνα είναι πολύ μεγάλη για να αποθηκευτεί. Θα χρησιμοποιηθεί μόνο κατά τη διάρκεια αυτής της συνεδρίας."
+  "logoTooLargeWarning": "Η εικόνα είναι πολύ μεγάλη για να αποθηκευτεί. Θα χρησιμοποιηθεί μόνο κατά τη διάρκεια αυτής της συνεδρίας.",
+  "resetButton": "Επαναφορά",
+  "@resetButton": {
+    "description": "Κείμενο κουμπιού επαναφοράς"
+  },
+  "addCompanyLogo": "Προσθήκη λογότυπου εταιρείας",
+  "@addCompanyLogo": {
+    "description": "Κείμενο που εμφανίζεται όταν δεν έχει οριστεί λογότυπο εταιρείας"
+  },
+  "appTitle": "ORaffle",
+  "@appTitle": {
+    "description": "Ο τίτλος της εφαρμογής"
+  },
+  "homeSubtitle": "Δίκαιες και διαφανείς κληρώσεις για την εταιρεία σας",
+  "@homeSubtitle": {
+    "description": "Υπότιτλος που εμφανίζεται στην αρχική οθόνη"
+  },
+  "settingsTitle": "Ρυθμίσεις",
+  "@settingsTitle": {
+    "description": "Τίτλος για το παράθυρο διαλόγου ρυθμίσεων"
+  },
+  "themeColor": "Χρώμα θέματος",
+  "@themeColor": {
+    "description": "Ετικέτα για την επιλογή χρώματος θέματος"
+  },
+  "saveButton": "Αποθήκευση",
+  "@saveButton": {
+    "description": "Κείμενο για το κουμπί αποθήκευσης"
+  },
+  "themeModeLabel": "Λειτουργία θέματος",
+  "@themeModeLabel": {
+    "description": "Ετικέτα για την επιλογή λειτουργίας θέματος"
+  },
+  "systemTheme": "Σύστημα",
+  "@systemTheme": {
+    "description": "Επιλογή θέματος συστήματος"
+  },
+  "lightTheme": "Φωτεινό",
+  "@lightTheme": {
+    "description": "Επιλογή φωτεινού θέματος"
+  },
+  "darkTheme": "Σκοτεινό",
+  "@darkTheme": {
+    "description": "Επιλογή σκοτεινού θέματος"
+  },
+  "invalidHexColor": "Μη έγκυρο δεκαεξαδικό χρώμα",
+  "@invalidHexColor": {
+    "description": "Μήνυμα σφάλματος για μη έγκυρη εισαγωγή δεκαεξαδικού χρώματος"
+  }
 }

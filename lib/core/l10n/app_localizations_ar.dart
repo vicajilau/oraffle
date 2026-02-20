@@ -15,7 +15,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get cancelButton => 'إلغاء';
 
   @override
-  String get resetButton => 'Reset';
+  String get resetButton => 'إعادة تعيين';
 
   @override
   String get reset => 'إعادة تعيين';
@@ -219,4 +219,37 @@ class AppLocalizationsAr extends AppLocalizations {
   @override
   String get logoTooLargeWarning =>
       'الصورة كبيرة جداً ولا يمكن حفظها. سيتم استخدامها فقط خلال هذه الجلسة.';
+
+  @override
+  String get addCompanyLogo => 'إضافة شعار الشركة';
+
+  @override
+  String get appTitle => 'ORaffle';
+
+  @override
+  String get homeSubtitle => 'قرعة عادلة وشفافة لشركتك';
+
+  @override
+  String get settingsTitle => 'الإعدادات';
+
+  @override
+  String get themeColor => 'لون المظهر';
+
+  @override
+  String get saveButton => 'حفظ';
+
+  @override
+  String get themeModeLabel => 'وضع المظهر';
+
+  @override
+  String get systemTheme => 'النظام';
+
+  @override
+  String get lightTheme => 'فاتح';
+
+  @override
+  String get darkTheme => 'داكن';
+
+  @override
+  String get invalidHexColor => 'لون سداسي عشري غير صالح';
 }

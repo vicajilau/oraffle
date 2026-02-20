@@ -15,7 +15,7 @@ class AppLocalizationsHi extends AppLocalizations {
   String get cancelButton => 'रद्द करें';
 
   @override
-  String get resetButton => 'Reset';
+  String get resetButton => 'रीसेट करें';
 
   @override
   String get reset => 'रीसेट करें';
@@ -221,4 +221,37 @@ class AppLocalizationsHi extends AppLocalizations {
   @override
   String get logoTooLargeWarning =>
       'छवि बहुत बड़ी है और सहेजी नहीं जा सकती। इसका उपयोग केवल इस सत्र के दौरान किया जाएगा।';
+
+  @override
+  String get addCompanyLogo => 'कंपनी का लोगो जोड़ें';
+
+  @override
+  String get appTitle => 'ORaffle';
+
+  @override
+  String get homeSubtitle => 'आपकी कंपनी के लिए निष्पक्ष और पारदर्शी रैफ़ल';
+
+  @override
+  String get settingsTitle => 'सेटिंग्स';
+
+  @override
+  String get themeColor => 'थीम का रंग';
+
+  @override
+  String get saveButton => 'सहेजें';
+
+  @override
+  String get themeModeLabel => 'थीम मोड';
+
+  @override
+  String get systemTheme => 'सिस्टम';
+
+  @override
+  String get lightTheme => 'लाइट';
+
+  @override
+  String get darkTheme => 'डार्क';
+
+  @override
+  String get invalidHexColor => 'अमान्य हेक्स रंग';
 }

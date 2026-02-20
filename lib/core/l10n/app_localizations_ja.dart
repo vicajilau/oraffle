@@ -15,7 +15,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get cancelButton => 'キャンセル';
 
   @override
-  String get resetButton => 'Reset';
+  String get resetButton => 'リセット';
 
   @override
   String get reset => 'リセット';
@@ -215,4 +215,37 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get logoTooLargeWarning => '画像が大きすぎて保存できません。このセッション中のみ使用されます。';
+
+  @override
+  String get addCompanyLogo => '会社ロゴを追加';
+
+  @override
+  String get appTitle => 'ORaffle';
+
+  @override
+  String get homeSubtitle => 'あなたの会社のための公平で透明なラッフル';
+
+  @override
+  String get settingsTitle => '設定';
+
+  @override
+  String get themeColor => 'テーマカラー';
+
+  @override
+  String get saveButton => '保存';
+
+  @override
+  String get themeModeLabel => 'テーマモード';
+
+  @override
+  String get systemTheme => 'システム';
+
+  @override
+  String get lightTheme => 'ライト';
+
+  @override
+  String get darkTheme => 'ダーク';
+
+  @override
+  String get invalidHexColor => '無効なヘックスカラー';
 }

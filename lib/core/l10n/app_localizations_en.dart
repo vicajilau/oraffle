@@ -222,4 +222,37 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get logoTooLargeWarning =>
       'Image is too large to be saved. It will only be used during this session.';
+
+  @override
+  String get addCompanyLogo => 'Add company logo';
+
+  @override
+  String get appTitle => 'ORaffle';
+
+  @override
+  String get homeSubtitle => 'Fair and transparent raffles for your company';
+
+  @override
+  String get settingsTitle => 'Settings';
+
+  @override
+  String get themeColor => 'Theme Color';
+
+  @override
+  String get saveButton => 'Save';
+
+  @override
+  String get themeModeLabel => 'Theme Mode';
+
+  @override
+  String get systemTheme => 'System';
+
+  @override
+  String get lightTheme => 'Light';
+
+  @override
+  String get darkTheme => 'Dark';
+
+  @override
+  String get invalidHexColor => 'Invalid hex color';
 }

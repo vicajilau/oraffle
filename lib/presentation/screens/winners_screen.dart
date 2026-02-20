@@ -9,9 +9,9 @@ import 'package:oraffle/domain/models/raffle/raffle_winner.dart';
 import 'package:oraffle/domain/models/raffle/raffle_logo.dart';
 import 'package:oraffle/presentation/blocs/raffle_bloc/raffle_bloc.dart';
 import 'package:oraffle/presentation/blocs/raffle_bloc/raffle_state.dart';
-import 'package:oraffle/presentation/screens/raffle/widgets/logo_widget.dart';
-import 'package:oraffle/presentation/screens/raffle/widgets/winners_empty_state.dart';
-import 'package:oraffle/presentation/screens/raffle/widgets/winners_list_widget.dart';
+import 'package:oraffle/presentation/screens/widgets/logo_widget.dart';
+import 'package:oraffle/presentation/screens/widgets/winners_empty_state.dart';
+import 'package:oraffle/presentation/screens/widgets/winners_list_widget.dart';
 import 'package:oraffle/routes/app_router.dart';
 
 class WinnersScreen extends StatelessWidget {

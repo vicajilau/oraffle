@@ -296,5 +296,53 @@
   "logoTooLargeWarning": "छवि बहुत बड़ी है और सहेजी नहीं जा सकती। इसका उपयोग केवल इस सत्र के दौरान किया जाएगा।",
   "@logoTooLargeWarning": {
     "description": "चेतावनी संदेश जब लोगो स्थायी भंडारण के लिए बहुत बड़ा है"
+  },
+  "resetButton": "रीसेट करें",
+  "@resetButton": {
+    "description": "रीसेट बटन का टेक्स्ट"
+  },
+  "addCompanyLogo": "कंपनी का लोगो जोड़ें",
+  "@addCompanyLogo": {
+    "description": "कंपनी लोगो सेट नहीं होने पर दिखाया जाने वाला टेक्स्ट"
+  },
+  "appTitle": "ORaffle",
+  "@appTitle": {
+    "description": "एप्लिकेशन का शीर्षक"
+  },
+  "homeSubtitle": "आपकी कंपनी के लिए निष्पक्ष और पारदर्शी रैफ़ल",
+  "@homeSubtitle": {
+    "description": "होम स्क्रीन पर दिखाया गया उपशीर्षक"
+  },
+  "settingsTitle": "सेटिंग्स",
+  "@settingsTitle": {
+    "description": "सेटिंग्स डायलॉग के लिए शीर्षक"
+  },
+  "themeColor": "थीम का रंग",
+  "@themeColor": {
+    "description": "थीम रंग चयन के लिए लेबल"
+  },
+  "saveButton": "सहेजें",
+  "@saveButton": {
+    "description": "सेव बटन के लिए टेक्स्ट"
+  },
+  "themeModeLabel": "थीम मोड",
+  "@themeModeLabel": {
+    "description": "थीम मोड चयन के लिए लेबल"
+  },
+  "systemTheme": "सिस्टम",
+  "@systemTheme": {
+    "description": "सिस्टम थीम विकल्प"
+  },
+  "lightTheme": "लाइट",
+  "@lightTheme": {
+    "description": "लाइट थीम विकल्प"
+  },
+  "darkTheme": "डार्क",
+  "@darkTheme": {
+    "description": "डार्क थीम विकल्प"
+  },
+  "invalidHexColor": "अमान्य हेक्स रंग",
+  "@invalidHexColor": {
+    "description": "अमान्य हेक्साडेसिमल रंग इनपुट के लिए त्रुटि संदेश"
   }
 }

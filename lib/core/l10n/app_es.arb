@@ -12,6 +12,10 @@
   "@reset": {
     "description": "Texto del botón reiniciar"
   },
+  "resetButton": "Reiniciar",
+  "@resetButton": {
+    "description": "Texto del botón reiniciar"
+  },
   "raffleTitle": "Sorteo",
   "@raffleTitle": {
     "description": "Título de la funcionalidad de sorteo"
@@ -298,12 +302,56 @@
   "@logoPreview": {
     "description": "Título de la sección de vista previa del logo"
   },
-  "removeLogo": "Quitar logo",
+  "removeLogo": "Eliminar Logo",
   "@removeLogo": {
-    "description": "Texto del botón para quitar el logo personalizado"
+    "description": "Texto para el botón de eliminar logo"
   },
   "logoTooLargeWarning": "La imagen es demasiado grande para guardarse. Solo se usará durante esta sesión.",
   "@logoTooLargeWarning": {
-    "description": "Mensaje de advertencia cuando el logo es demasiado grande para almacenamiento persistente"
+    "description": "Aviso cuando el logo excede los límites de tamaño"
+  },
+  "addCompanyLogo": "Añadir logo de empresa",
+  "@addCompanyLogo": {
+    "description": "Texto mostrado cuando no hay logo de empresa configurado"
+  },
+  "appTitle": "ORaffle",
+  "@appTitle": {
+    "description": "Título de la aplicación"
+  },
+  "homeSubtitle": "Sorteos justos y transparentes para su empresa",
+  "@homeSubtitle": {
+    "description": "Subtítulo de la pantalla de inicio"
+  },
+  "settingsTitle": "Configuración",
+  "@settingsTitle": {
+    "description": "Título del diálogo de configuración"
+  },
+  "themeColor": "Color del tema",
+  "@themeColor": {
+    "description": "Etiqueta para selección de color"
+  },
+  "saveButton": "Guardar",
+  "@saveButton": {
+    "description": "Texto del botón guardar"
+  },
+  "themeModeLabel": "Modo del tema",
+  "@themeModeLabel": {
+    "description": "Etiqueta para selección de modo de tema"
+  },
+  "systemTheme": "Sistema",
+  "@systemTheme": {
+    "description": "Opción de tema de sistema"
+  },
+  "lightTheme": "Claro",
+  "@lightTheme": {
+    "description": "Opción de tema claro"
+  },
+  "darkTheme": "Oscuro",
+  "@darkTheme": {
+    "description": "Opción de tema oscuro"
+  },
+  "invalidHexColor": "Color hexadecimal inválido",
+  "@invalidHexColor": {
+    "description": "Mensaje de error para entrada de color hexadecimal inválida"
   }
 }

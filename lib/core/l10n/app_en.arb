@@ -309,5 +309,49 @@
   "logoTooLargeWarning": "Image is too large to be saved. It will only be used during this session.",
   "@logoTooLargeWarning": {
     "description": "Warning when logo exceeds size limits"
+  },
+  "addCompanyLogo": "Add company logo",
+  "@addCompanyLogo": {
+    "description": "Text shown when no company logo is set"
+  },
+  "appTitle": "ORaffle",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "homeSubtitle": "Fair and transparent raffles for your company",
+  "@homeSubtitle": {
+    "description": "Subtitle shown on the home screen"
+  },
+  "settingsTitle": "Settings",
+  "@settingsTitle": {
+    "description": "Title for the settings dialog"
+  },
+  "themeColor": "Theme Color",
+  "@themeColor": {
+    "description": "Label for theme color selection"
+  },
+  "saveButton": "Save",
+  "@saveButton": {
+    "description": "Text for the save button"
+  },
+  "themeModeLabel": "Theme Mode",
+  "@themeModeLabel": {
+    "description": "Label for theme mode selection"
+  },
+  "systemTheme": "System",
+  "@systemTheme": {
+    "description": "System theme option"
+  },
+  "lightTheme": "Light",
+  "@lightTheme": {
+    "description": "Light theme option"
+  },
+  "darkTheme": "Dark",
+  "@darkTheme": {
+    "description": "Dark theme option"
+  },
+  "invalidHexColor": "Invalid hex color",
+  "@invalidHexColor": {
+    "description": "Error message for invalid hexadecimal color input"
   }
 }

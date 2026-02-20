@@ -296,5 +296,53 @@
   "logoTooLargeWarning": "画像が大きすぎて保存できません。このセッション中のみ使用されます。",
   "@logoTooLargeWarning": {
     "description": "ロゴが永続的な保存には大きすぎる場合の警告メッセージ"
+  },
+  "resetButton": "リセット",
+  "@resetButton": {
+    "description": "リセットボタンのテキスト"
+  },
+  "addCompanyLogo": "会社ロゴを追加",
+  "@addCompanyLogo": {
+    "description": "会社ロゴが設定されていないときに表示されるテキスト"
+  },
+  "appTitle": "ORaffle",
+  "@appTitle": {
+    "description": "アプリケーションのタイトル"
+  },
+  "homeSubtitle": "あなたの会社のための公平で透明なラッフル",
+  "@homeSubtitle": {
+    "description": "ホーム画面に表示されるサブタイトル"
+  },
+  "settingsTitle": "設定",
+  "@settingsTitle": {
+    "description": "設定ダイアログのタイトル"
+  },
+  "themeColor": "テーマカラー",
+  "@themeColor": {
+    "description": "テーマカラー選択のラベル"
+  },
+  "saveButton": "保存",
+  "@saveButton": {
+    "description": "保存ボタンのテキスト"
+  },
+  "themeModeLabel": "テーマモード",
+  "@themeModeLabel": {
+    "description": "テーマモード選択のラベル"
+  },
+  "systemTheme": "システム",
+  "@systemTheme": {
+    "description": "システムテーマのオプション"
+  },
+  "lightTheme": "ライト",
+  "@lightTheme": {
+    "description": "ライトテーマのオプション"
+  },
+  "darkTheme": "ダーク",
+  "@darkTheme": {
+    "description": "ダークテーマのオプション"
+  },
+  "invalidHexColor": "無効なヘックスカラー",
+  "@invalidHexColor": {
+    "description": "無効な16進カラー入力のエラーメッセージ"
   }
 }

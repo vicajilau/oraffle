@@ -15,7 +15,7 @@ class AppLocalizationsEl extends AppLocalizations {
   String get cancelButton => 'Ακύρωση';
 
   @override
-  String get resetButton => 'Reset';
+  String get resetButton => 'Επαναφορά';
 
   @override
   String get reset => 'Επαναφορά';
@@ -224,4 +224,38 @@ class AppLocalizationsEl extends AppLocalizations {
   @override
   String get logoTooLargeWarning =>
       'Η εικόνα είναι πολύ μεγάλη για να αποθηκευτεί. Θα χρησιμοποιηθεί μόνο κατά τη διάρκεια αυτής της συνεδρίας.';
+
+  @override
+  String get addCompanyLogo => 'Προσθήκη λογότυπου εταιρείας';
+
+  @override
+  String get appTitle => 'ORaffle';
+
+  @override
+  String get homeSubtitle =>
+      'Δίκαιες και διαφανείς κληρώσεις για την εταιρεία σας';
+
+  @override
+  String get settingsTitle => 'Ρυθμίσεις';
+
+  @override
+  String get themeColor => 'Χρώμα θέματος';
+
+  @override
+  String get saveButton => 'Αποθήκευση';
+
+  @override
+  String get themeModeLabel => 'Λειτουργία θέματος';
+
+  @override
+  String get systemTheme => 'Σύστημα';
+
+  @override
+  String get lightTheme => 'Φωτεινό';
+
+  @override
+  String get darkTheme => 'Σκοτεινό';
+
+  @override
+  String get invalidHexColor => 'Μη έγκυρο δεκαεξαδικό χρώμα';
 }

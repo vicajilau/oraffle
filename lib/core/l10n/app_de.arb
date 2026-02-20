@@ -305,5 +305,53 @@
   "logoTooLargeWarning": "Das Bild ist zu groß zum Speichern. Es wird nur während dieser Sitzung verwendet.",
   "@logoTooLargeWarning": {
     "description": "Warnmeldung, wenn das Logo zu groß für die dauerhafte Speicherung ist"
+  },
+  "resetButton": "Zurücksetzen",
+  "@resetButton": {
+    "description": "Text der Reset-Schaltfläche"
+  },
+  "addCompanyLogo": "Firmenlogo hinzufügen",
+  "@addCompanyLogo": {
+    "description": "Text, der angezeigt wird, wenn kein Firmenlogo festgelegt ist"
+  },
+  "appTitle": "ORaffle",
+  "@appTitle": {
+    "description": "Der Titel der Anwendung"
+  },
+  "homeSubtitle": "Faire und transparente Gewinnspiele für Ihr Unternehmen",
+  "@homeSubtitle": {
+    "description": "Untertitel auf dem Startbildschirm"
+  },
+  "settingsTitle": "Einstellungen",
+  "@settingsTitle": {
+    "description": "Titel für den Einstellungsdialog"
+  },
+  "themeColor": "Themenfarbe",
+  "@themeColor": {
+    "description": "Bezeichnung für die Auswahl der Themenfarbe"
+  },
+  "saveButton": "Speichern",
+  "@saveButton": {
+    "description": "Text für die Speichern-Schaltfläche"
+  },
+  "themeModeLabel": "Themenmodus",
+  "@themeModeLabel": {
+    "description": "Bezeichnung für die Auswahl des Themenmodus"
+  },
+  "systemTheme": "System",
+  "@systemTheme": {
+    "description": "Option für das System-Thema"
+  },
+  "lightTheme": "Hell",
+  "@lightTheme": {
+    "description": "Option für das helle Thema"
+  },
+  "darkTheme": "Dunkel",
+  "@darkTheme": {
+    "description": "Option für das dunkle Thema"
+  },
+  "invalidHexColor": "Ungültige Hex-Farbe",
+  "@invalidHexColor": {
+    "description": "Fehlermeldung für ungültige hexadezimale Farbeingabe"
   }
 }

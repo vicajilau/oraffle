@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:oraffle/core/l10n/app_localizations.dart';
-import 'package:oraffle/presentation/screens/raffle/widgets/participant_input_widget.dart';
-import 'package:oraffle/presentation/screens/raffle/widgets/participant_list_widget.dart';
-import 'package:oraffle/presentation/screens/raffle/widgets/raffle_controls_widget.dart';
+import 'package:oraffle/presentation/screens/widgets/participant_input_widget.dart';
+import 'package:oraffle/presentation/screens/widgets/participant_list_widget.dart';
+import 'package:oraffle/presentation/screens/widgets/raffle_controls_widget.dart';
 
 class RaffleWideLayout extends StatelessWidget {
   const RaffleWideLayout({super.key});

@@ -15,7 +15,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get cancelButton => 'Abbrechen';
 
   @override
-  String get resetButton => 'Reset';
+  String get resetButton => 'Zurücksetzen';
 
   @override
   String get reset => 'Zurücksetzen';
@@ -223,4 +223,38 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get logoTooLargeWarning =>
       'Das Bild ist zu groß zum Speichern. Es wird nur während dieser Sitzung verwendet.';
+
+  @override
+  String get addCompanyLogo => 'Firmenlogo hinzufügen';
+
+  @override
+  String get appTitle => 'ORaffle';
+
+  @override
+  String get homeSubtitle =>
+      'Faire und transparente Gewinnspiele für Ihr Unternehmen';
+
+  @override
+  String get settingsTitle => 'Einstellungen';
+
+  @override
+  String get themeColor => 'Themenfarbe';
+
+  @override
+  String get saveButton => 'Speichern';
+
+  @override
+  String get themeModeLabel => 'Themenmodus';
+
+  @override
+  String get systemTheme => 'System';
+
+  @override
+  String get lightTheme => 'Hell';
+
+  @override
+  String get darkTheme => 'Dunkel';
+
+  @override
+  String get invalidHexColor => 'Ungültige Hex-Farbe';
 }

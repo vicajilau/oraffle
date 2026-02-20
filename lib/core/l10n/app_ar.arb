@@ -299,5 +299,53 @@
   "logoTooLargeWarning": "الصورة كبيرة جداً ولا يمكن حفظها. سيتم استخدامها فقط خلال هذه الجلسة.",
   "@logoTooLargeWarning": {
     "description": "رسالة تحذير عندما يكون الشعار كبيراً جداً للتخزين المستمر"
+  },
+  "resetButton": "إعادة تعيين",
+  "@resetButton": {
+    "description": "نص زر إعادة التعيين"
+  },
+  "addCompanyLogo": "إضافة شعار الشركة",
+  "@addCompanyLogo": {
+    "description": "النص المعروض عندما لا يتم تعيين شعار للشركة"
+  },
+  "appTitle": "ORaffle",
+  "@appTitle": {
+    "description": "عنوان التطبيق"
+  },
+  "homeSubtitle": "قرعة عادلة وشفافة لشركتك",
+  "@homeSubtitle": {
+    "description": "العنوان الفرعي المعروض على الشاشة الرئيسية"
+  },
+  "settingsTitle": "الإعدادات",
+  "@settingsTitle": {
+    "description": "عنوان حوار الإعدادات"
+  },
+  "themeColor": "لون المظهر",
+  "@themeColor": {
+    "description": "تسمية لاختيار لون المظهر"
+  },
+  "saveButton": "حفظ",
+  "@saveButton": {
+    "description": "نص زر الحفظ"
+  },
+  "themeModeLabel": "وضع المظهر",
+  "@themeModeLabel": {
+    "description": "تسمية لاختيار وضع المظهر"
+  },
+  "systemTheme": "النظام",
+  "@systemTheme": {
+    "description": "خيار سمة النظام"
+  },
+  "lightTheme": "فاتح",
+  "@lightTheme": {
+    "description": "خيار السمة الفاتحة"
+  },
+  "darkTheme": "داكن",
+  "@darkTheme": {
+    "description": "خيار السمة الداكنة"
+  },
+  "invalidHexColor": "لون سداسي عشري غير صالح",
+  "@invalidHexColor": {
+    "description": "رسالة خطأ لإدخال لون سداسي عشري غير صالح"
   }
 }

@@ -15,7 +15,7 @@ class AppLocalizationsIt extends AppLocalizations {
   String get cancelButton => 'Annulla';
 
   @override
-  String get resetButton => 'Reset';
+  String get resetButton => 'Ripristina';
 
   @override
   String get reset => 'Reimposta';
@@ -224,4 +224,37 @@ class AppLocalizationsIt extends AppLocalizations {
   @override
   String get logoTooLargeWarning =>
       'L\'immagine è troppo grande per essere salvata. Verrà utilizzata solo durante questa sessione.';
+
+  @override
+  String get addCompanyLogo => 'Aggiungi logo aziendale';
+
+  @override
+  String get appTitle => 'ORaffle';
+
+  @override
+  String get homeSubtitle => 'Raffle eque e trasparenti per la tua azienda';
+
+  @override
+  String get settingsTitle => 'Impostazioni';
+
+  @override
+  String get themeColor => 'Colore del tema';
+
+  @override
+  String get saveButton => 'Salva';
+
+  @override
+  String get themeModeLabel => 'Modalità tema';
+
+  @override
+  String get systemTheme => 'Sistema';
+
+  @override
+  String get lightTheme => 'Chiaro';
+
+  @override
+  String get darkTheme => 'Scuro';
+
+  @override
+  String get invalidHexColor => 'Colore esadecimale non valido';
 }

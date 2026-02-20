@@ -25,8 +25,10 @@ class WinnerDialog extends StatelessWidget {
 
     // Design Tokens
     final titleColor = isDark ? AppTheme.backgroundColor : Colors.black;
-    final trophyBg = isDark ? AppTheme.violet900 : AppTheme.violet100;
-    final trophyIcon = isDark ? AppTheme.violet400 : AppTheme.primaryColor;
+    final trophyBg = isDark
+        ? Theme.of(context).colorScheme.primary.withValues(alpha: 0.2)
+        : Theme.of(context).colorScheme.primary.withValues(alpha: 0.1);
+    final trophyIcon = Theme.of(context).colorScheme.primary;
     final nameBg = isDark ? AppTheme.zinc700 : AppTheme.zinc100;
     final nameText = isDark ? AppTheme.backgroundColor : AppTheme.zinc900;
     final statsBg = isDark ? AppTheme.zinc900 : AppTheme.zinc50;
@@ -143,7 +145,7 @@ class WinnerDialog extends StatelessWidget {
                     child: ElevatedButton.icon(
                       onPressed: onRepeatRaffle,
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: AppTheme.primaryColor,
+                        backgroundColor: Theme.of(context).colorScheme.primary,
                         foregroundColor: Colors.white,
                         elevation: 0,
                         shape: RoundedRectangleBorder(
@@ -171,11 +173,13 @@ class WinnerDialog extends StatelessWidget {
                       ? OutlinedButton.icon(
                           onPressed: onFinishRaffle,
                           style: OutlinedButton.styleFrom(
-                            foregroundColor: colors.subtitle,
+                            foregroundColor: Theme.of(
+                              context,
+                            ).colorScheme.primary,
                             side: BorderSide(
-                              color: isDark
-                                  ? AppTheme.zinc700
-                                  : AppTheme.zinc200,
+                              color: Theme.of(
+                                context,
+                              ).colorScheme.primary.withValues(alpha: 0.5),
                             ),
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(12),
@@ -184,7 +188,7 @@ class WinnerDialog extends StatelessWidget {
                           icon: Icon(
                             Icons.emoji_events,
                             size: 20,
-                            color: colors.subtitle,
+                            color: Theme.of(context).colorScheme.primary,
                           ),
                           label: Text(
                             AppLocalizations.of(context)!.winnersTitle,
@@ -198,7 +202,9 @@ class WinnerDialog extends StatelessWidget {
                       : ElevatedButton.icon(
                           onPressed: onFinishRaffle,
                           style: ElevatedButton.styleFrom(
-                            backgroundColor: AppTheme.primaryColor,
+                            backgroundColor: Theme.of(
+                              context,
+                            ).colorScheme.primary,
                             foregroundColor: Colors.white,
                             elevation: 0,
                             shape: RoundedRectangleBorder(
