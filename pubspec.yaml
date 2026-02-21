@@ -48,6 +48,7 @@ dependencies:
   lucide_icons: ^0.257.0
   path_provider: ^2.1.5
   collection: ^1.19.1
+  flutter_launcher_icons: ^0.14.4
 
 dev_dependencies:
   flutter_test:
